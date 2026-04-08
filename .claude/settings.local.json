@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm view:*)",
+      "Bash(npm info:*)",
+      "Bash(npm pack:*)",
+      "Bash(node -e \"const s=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\);const j=JSON.parse\\(s\\);console.log\\(JSON.stringify\\(j.exports,null,2\\)\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx eslint:*)"
+    ]
+  }
+}
